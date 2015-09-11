@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Lohit Devanagari';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://fonts.gstatic.com/ea/lohitdevanagari/v8/Lohit-Devanagari.eot);
+  src: url(http://fonts.gstatic.com/ea/lohitdevanagari/v8/Lohit-Devanagari.eot?#iefix) format('embedded-opentype'),
+       url(http://fonts.gstatic.com/ea/lohitdevanagari/v8/Lohit-Devanagari.woff2) format('woff2'),
+       url(http://fonts.gstatic.com/ea/lohitdevanagari/v8/Lohit-Devanagari.woff) format('woff'),
+       url(http://fonts.gstatic.com/ea/lohitdevanagari/v8/Lohit-Devanagari.ttf) format('truetype');
+}
+body#tinymce.wp-editor { 
+    font-family: 'Lohit Devanagari', serif;
+    margin: 10px; 
+    color: red;
+}
+
+body#tinymce.wp-editor a {
+    color: #4CA6CF;
+}

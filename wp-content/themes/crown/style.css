@@ -1,0 +1,71 @@
+/*
+Theme Name : Crown
+Version :1 
+Author : Shubham
+Description : Testing theme
+*/
+		body{
+			margin : 0px;
+			margin-top :10px;
+		}
+		div { border : 1px solid #ccc; }
+		.separator {
+			clear : both;
+			margin-top :10px;
+			margin-bottom: 5px;
+			border: 0px solid #ccc;
+		}
+		#container {
+			width: 900px;
+			margin :auto;
+			border : 0px solid #ccc;
+		}
+		#header{
+			height :100px;
+		}
+		#post_container{
+			border: 0px solid #ccc; 
+		}
+		#left_part, #right_part {
+			
+			height: 400px;
+		}
+		#left_part {
+			float : left;
+			width :690px;
+		}
+		#right_part{
+			float : right;
+			width: 200px;
+			margin-left: 5px;
+		}
+		#footer{
+			clear : both;
+			height :20px;
+		}
+		#left_part h2{
+			font-size: 24px;
+			font-family: Georgia, "Times New Roman", Times, serif; 
+			display: block; 	
+		}
+		#left_part h2 A{
+			text-decoration: none;
+			color: #339900;
+		}
+		#left_part h2 A:hover{
+			text-decoration: underline;
+			
+		}
+		.meta{
+			font-size: 14px;
+			font-family: Georgia, "Times New Roman", Times, serif; 
+			display: block; 
+		}
+		.meta A{
+			color: orange;
+			text-decoration: none;
+		}
+		.meta A:hover{
+			text-decoration: underline;
+			
+		}
